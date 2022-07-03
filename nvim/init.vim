@@ -213,11 +213,3 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 nmap W <esc>/[A-Z]<CR>:noh<CR>
 nmap B <esc>/[A-Z]<CR>N:noh<CR>
-
-
-let g:python3_host_prog="/home/eringel/envs/nvim/bin/python3"
-let g:python3_host_prog="/home/eringel/envs/nvim/bin/python3"
-let g:python3_host_prog="/home/eringel/envs/nvim/bin/python3"
-let g:python3_host_prog="/home/eringel/envs/nvim/bin/python3"
-let g:python3_host_prog="/home/eringel/envs/nvim/bin/python3"
-let g:python3_host_prog="/home/eringel/envs/nvim/bin/python3"
