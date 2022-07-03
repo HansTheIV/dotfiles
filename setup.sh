@@ -24,14 +24,15 @@ echo "alias vim=\"~/.config/nvim/nvim.appimage\"" >> ~/.bashrc
 mkdir ~/envs
 python3.10 -m venv ~/envs/nvim
 
-echo "let g:python3_host_prog=\"/home/$USER/envs/nvim/bin/python3\"" >> ./nvim/init.vim
 mkdir ~/.config
 mkdir ~/.config/nvim
 cp ./nvim/* ~/.config/nvim
 chmod ua+x ~/.config/nvim/nvim.appimage
 
+echo "let g:python3_host_prog=\"/home/$USER/envs/nvim/bin/python3\"" >> ~/.config/nvim/init.vim
+
 npm install --location=global neovim
-gem install neovim
+sudo gem install neovim
 
 
 cp -r ./fonts /home/$USER/.fonts
